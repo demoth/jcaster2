@@ -45,6 +45,7 @@ public class CasterProtocolJSON implements CasterProtocol {
                 .add(WHAT, LOGIN)
                 .add(LOGIN, login)
                 .add(PASSWORD, password)
+                .build()
                 .toString());
     }
 
